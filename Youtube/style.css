@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+
+}
+
+#hum {
+    padding: 10px;
+    float: left;
+    font-size: 25px;
+}
+
+#youtubeLogo {
+    float: left;
+    width: 80px;
+}
+
+header {
+    border-bottom: 1px solid rgb(186, 181, 181);
+    height: 50px;
+}
+
+#search {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+}
+
+#searchBtn {
+    padding: 10px;
+    font-size: 16px;
+    float: left;
+    width: 20%;
+}
+
+#searchForm {
+    margin: auto;
+    max-width: 350px;
+}
+
+#searchVoice {
+    padding: 10px;
+    font-size: 30px;
+
+}
+
+#addVideo,
+#notification {
+    padding: 10px;
+    font-size: 30px;
+    float: right;
+}
+
+#profilePicture {
+    position: relative;
+    float: right;
+    width: 42px;
+    border-radius: 21px;
+}
+
+main {
+    padding-top: 20px;
+    padding-left: 200px;
+    width: 75%;
+    display: inline;
+    float: left;
+}
+
+aside {
+    padding: 10px;
+    width: 25%;
+    float: right;
+    display: inline;
+}
+
+.sideButton {
+    color: rgb(121, 120, 120);
+    font-size: 20px;
+    border: 1px solid rgb(144, 142, 142);
+    border-radius: 12px;
+}
+
+#videotitile {
+    font-weight: bold;
+}
+
+#videocaption {
+    float: left;
+    border: 3px solid grey;
+    width: 50px;
+}
+
+#react {
+    margin: 50px;
+    display: inline;
+    float: right;
+}
+.like{
+    padding: 25px;
+    font-size: 17px;
+}
+.thumbnailImage{
+    padding: 5px;
+    width: 250px;
+    float: left;
+}
+.othervideo{
+    padding: 15px;
+    padding-top: 20px;
+    display: inline;
+}
+.thumbnailtitle{
+    font-weight: bold;
+}
+.thumbnailbody{
+    margin-bottom: 0px;
+    paddingss-bottom: 0px;
+    color: grey;
+}
+.publisherprofile{
+    width: 60px;
+    border-radius: 30px;
+    
+}
+.publisher{
+    display: inline;
+}
