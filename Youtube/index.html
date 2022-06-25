@@ -5,96 +5,152 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.css">
-    <link rel="stylesheet" href="style.css">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.css">
 </head>
 
 <body>
     <header>
-        <i class="fa fa-bars" id="hum"></i>
-        <img src="image/youtube.png" alt="youtube logo " id="youtubeLogo">
-        <form id="searchForm">
-            <input type="search" id="search" placeholder="Search" name="search">
-            <button type="submit" id="searchBtn"><i class="fa fa-search"></i></button>
+        <nav>
+            <i class="fa fa-bars"></i>
+            <img src="image/youtube.png" alt="youtube logo " id="logo">
+        </nav>
+        <section id="search">
+            <input type="text" placeholder="Search" name="" id="searchinput">
+            <button type="submit" id="searchbtn"><i class="fa fa-search"></i></button>
+            <i class="fa fa-microphone" id="searchVoice"></i>
 
-        </form><i class="fa fa-microphone" id="searchVoice"></i>
-        <img src="image/pp.jpg" alt="profile picture" id="profilePicture" />
-        <i class="fa-solid fa-bell" id="notification"></i>
-        <i class="fa-solid fa-video" id="addVideo"></i>
-
-
+        </section>
+        <section id="account">
+            <img src="image/pp.jpg" alt="profile picture" id="profilePicture" />
+            <i class="fa-solid fa-bell" id="notification"></i>
+            <i class="fa-solid fa-video" id="addVideo"></i>
+        </section>
     </header>
-
     <main>
-        <div class="videowrapper">
+        <section id="video" class="mainContent">
             <iframe id="youtubeVideo" width="1166" height="656" src="https://www.youtube.com/embed/1hMVeENjVew"
                 title="TEDDY AFRO - ናዕት (እያመመው ቁጥር ፪) - [New! Official Single 2022] - With Lyrics" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen>
             </iframe>
-        </div>
-        <div id="react">
-            <span href="" class="like"> <i class="fas fa-thumbs-up"></i> 128K</span>
-            <span href="" class="like"> <i class="fas fa-thumbs-down"></i> 12</span>
-            <span href="" class="like"> <i class="fas fa-share"></i> 32k</span>
-        </div>
-        <caption id="videocaption">
-            <p id="videotitile">TEDDY AFRO - ናዕት (እያመመው ቁጥር ፪) - [New! Official Single 2022] - With Lyrics</p>
-            <p class="views">2,000,242 views Jun 21, 2022</p>
-        </caption>
-        
-        <hr>
-        <section class="publisher">
+        </section>
+        <section id="publisher" class="mainContent">
+            <section id="title">
+                <section id="titleHeader">TEDDY AFRO - ናዕት (እያመመው ቁጥር ፪) - [New! Official Single 2022] - With Lyrics
+                </section>
+                <section id="titleFooter">
+                    <section id="date">3,426,157 viewsJun 21, 2022</section>
+                    <section id="reaction">
+                        <span>👍🏿 155K 👎DISLIKE ✂️ CLIP 💾SAVE</span>
+                    </section>
+                </section>
+            </section><br>
+            <hr>
           
-            <img src="image/pp.jpg" alt="profile picture" class="publisherprofile" />
-            <span>dldlld</span>
-        
-            </section>
-        <hr>
 
+        </section>
+        <section id="commentes" class="mainContent">
 
-
-
+        </section>
     </main>
     <aside>
-        <button class="sideButton">All</button>
-        <button class="sideButton">from your search</button>
-        <button class="sideButton">Tedy Afro</button>
-        <button class="sideButton">Live</button>
-        <section class="othervideo">
-            <img src="image/thumbnail1.png" alt="thumb one" class="thumbnailImage">
-            <p class="thumbnailtitle">Hewan Gebrewold - Addis Aydelem (Official Audio)</p>
-            <p class="thumbnailbody">Hewan Music </p>
-            <p class="thumbnailbody"> 314K views 2 weeks ago </p>
-            </p>
-        </section>
-        <section class="othervideo">
-            <img src="image/thumbnail2.png" alt="thumb one" class="thumbnailImage">
-            <p class="thumbnailtitle">KUTU (Hewan Gebrewold) - BAAMET BEAL [Official Video]</p>
-            <p class="thumbnailbody">Hewan Music </p>
-            <p class="thumbnailbody"> 314K views 2 weeks ago </p>
-            </p>
-        </section>
-        <section class="othervideo">
-            <img src="image/thumbnail3.png" alt="thumb one" class="thumbnailImage">
-            <p class="thumbnailtitle">"ሁሌ ፋሲካ የለም እኔ ሸለምኩሽ እኔ ጣልኩሽ " ሶስቱ ተፋጠዋል... /ምርጡ ገበታ የምግብ ዝግጅት ውድድር/</p>
-            <p class="thumbnailbody">EBS tv </p>
-            <p class="thumbnailbody"> 314K views 2 weeks ago </p>
-            </p>
-        </section>
-        <section class="othervideo">
-            <img src="image/thumbnail4.png" alt="thumb one" class="thumbnailImage">
-            <p class="thumbnailtitle">ናዕት - ለቴዲ የተላከው የአብይ መልእክት - ቴዲ ያወጣው ሚስጥር -Ethiopia</p>
-            <p class="thumbnailbody">Addis Monitor</p>
-            <p class="thumbnailbody"> 77,310 views 2 weeks ago </p>
-            </p>
+        <section id="shortNav">
+            <button>Teddy Afro</button>
+            <button>Hewan Gebrewold</button>
+            <button>Kokkey</button>
+
         </section>
 
-    </aside>
-    <aside>
-    </aside>
+        <section class="otherVideo">
+            <section class="otherVideoImage">
+                <img src="image/thumbnail1.png" alt="thumb one" class="thumbnailImage">
+            </section>
+            <section class='otherCaption'>
+                <span class="othertitle">Hewan Gebrewold - Addis Aydelem (Official Audio)</span><br><br>
+                <span class="author">Hewan music 🎵</span><br>
+                <span class="author">1.6m - 3 weeks ago</span>
+            </section>
 
+        </section>
+        <section class="otherVideo">
+            <section class="otherVideoImage">
+                <img src="image/thumbnail2.png" alt="thumb one" class="thumbnailImage">
+            </section>
+            <section class='otherCaption'>
+                <span class="othertitle">KUTU (Hewan Gebrewold) - BAAMET BEAL [Official Video]</span><br><br>
+                <span class="author">Hewan music🎵</span><br>
+                <span class="author">1.6m - 3 weeks ago</span>
+            </section>
+
+        </section>
+        <section class="otherVideo">
+            <section class="otherVideoImage">
+                <img src="image/thumbnail3.png" alt="thumb one" class="thumbnailImage">
+            </section>
+            <section class='otherCaption'>
+                <span class="othertitle">"ሁሌ ፋሲካ የለም እኔ ሸለምኩሽ እኔ ጣልኩሽ " ሶስቱ ተፋጠዋል...]</span><br><br>
+                <span class="author">Ebs Tv</span><br>
+                <span class="author">314K views 2 weeks ago</span>
+            </section>
+
+        </section>
+        <section class="otherVideo">
+            <section class="otherVideoImage">
+                <img src="image/thumbnail4.png" alt="thumb one" class="thumbnailImage">
+            </section>
+            <section class='otherCaption'>
+                <span class="othertitle">"ናዕት - ለቴዲ የተላከው የአብይ መልእክት - ቴዲ ያወጣው ሚስጥር -Ethiopia</span><br><br>
+                <span class="author">Addis Monitor ☑️</span><br>
+                <span class="author">314K views 2 weeks ago</span>
+            </section>
+
+        </section>
+        <section class="otherVideo">
+            <section class="otherVideoImage">
+                <img src="image/thumbnail1.png" alt="thumb one" class="thumbnailImage">
+            </section>
+            <section class='otherCaption'>
+                <span class="othertitle">Hewan Gebrewold - Addis Aydelem (Official Audio)</span><br><br>
+                <span class="author">Hewan music 🎵</span><br>
+                <span class="author">1.6m - 3 weeks ago</span>
+            </section>
+
+        </section>
+        <section class="otherVideo">
+            <section class="otherVideoImage">
+                <img src="image/thumbnail2.png" alt="thumb one" class="thumbnailImage">
+            </section>
+            <section class='otherCaption'>
+                <span class="othertitle">KUTU (Hewan Gebrewold) - BAAMET BEAL [Official Video]</span><br><br>
+                <span class="author">Hewan music🎵</span><br>
+                <span class="author">1.6m - 3 weeks ago</span>
+            </section>
+
+        </section>
+        <section class="otherVideo">
+            <section class="otherVideoImage">
+                <img src="image/thumbnail3.png" alt="thumb one" class="thumbnailImage">
+            </section>
+            <section class='otherCaption'>
+                <span class="othertitle">"ሁሌ ፋሲካ የለም እኔ ሸለምኩሽ እኔ ጣልኩሽ " ሶስቱ ተፋጠዋል...]</span><br><br>
+                <span class="author">Ebs Tv</span><br>
+                <span class="author">314K views 2 weeks ago</span>
+            </section>
+
+        </section>
+        <section class="otherVideo">
+            <section class="otherVideoImage">
+                <img src="image/thumbnail4.png" alt="thumb one" class="thumbnailImage">
+            </section>
+            <section class='otherCaption'>
+                <span class="othertitle">"ናዕት - ለቴዲ የተላከው የአብይ መልእክት - ቴዲ ያወጣው ሚስጥር -Ethiopia</span><br><br>
+                <span class="author">Addis Monitor ☑️</span><br>
+                <span class="author">314K views 2 weeks ago</span>
+            </section>
+        </section>
+    </aside>
 </body>
 
 </html>

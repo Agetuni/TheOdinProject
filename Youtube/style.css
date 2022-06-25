@@ -1,128 +1,252 @@
 * {
     box-sizing: border-box;
-
-}
-
-#hum {
-    padding: 10px;
-    float: left;
-    font-size: 25px;
-}
-
-#youtubeLogo {
-    float: left;
-    width: 80px;
 }
 
 header {
-    border-bottom: 1px solid rgb(186, 181, 181);
+    width: 100%;
     height: 50px;
 }
 
+nav {
+    float: left;
+    width: 35%;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
 #search {
+    display: inline;
+    float: left;
+    width: 30%;
     padding: 10px;
-    font-size: 17px;
+}
+
+#account {
+    float: left;
+    width: 35%;
+    padding: 10px;
+    /* background-color: rgb(169, 97, 97); */
+}
+
+header i {
+    font-size: 30px;
+}
+
+#logo {
+    padding: 0 0 0 15px;
+    width: 120px;
+}
+
+#search input {
+    padding: 9px;
     border: 1px solid grey;
+    border-radius: 2px;
     float: left;
-    width: 80%;
-}
-
-#searchBtn {
-    padding: 10px;
-    font-size: 16px;
-    float: left;
-    width: 20%;
-}
-
-#searchForm {
-    margin: auto;
-    max-width: 350px;
-}
-
-#searchVoice {
-    padding: 10px;
-    font-size: 30px;
-
-}
-
-#addVideo,
-#notification {
-    padding: 10px;
-    font-size: 30px;
-    float: right;
+    width: 70%;
 }
 
 #profilePicture {
-    position: relative;
+    width: 50px;
+    border-radius: 25px;
     float: right;
-    width: 42px;
-    border-radius: 21px;
 }
 
-main {
-    padding-top: 20px;
-    padding-left: 200px;
-    width: 75%;
-    display: inline;
+#notification,
+#addVideo {
+    padding: 10px;
+    float: right;
+}
+
+.otherVideo {
+    width: 100%;
+    height: 150px;
+
+}
+
+.otherVideoImage {
     float: left;
+    width: 60%;
+    height: 150px;
+    margin-top: 15px;
+}
+
+.otherCaption {
+    padding: 10px;
+    float: left;
+    width: 40%;
+    height: 150px;
+}
+
+.othertitle {
+    font-weight: bold;
+    color: rgb(36, 36, 36);
+}
+
+.thumbnailImage {
+    width: 100%;
+    height: 100%;
+}
+
+#shortNav {
+    width: 100px;
+    display: inline;
+    padding: 12px;
+    margin-bottom: 15px;
+}
+
+#shortNav button {
+    border: 1px solid grey;
+    font-size: 16px;
+    border-radius: 15px;
+}
+
+.author {
+    color: rgb(157, 159, 160);
+}
+
+#title {
+    width: 100%;
+    height: auto;
+
+
+}
+
+#titleHeader {
+    font-size: 20px;
+    width: 100%;
+}
+
+#titleFooter {
+    margin-top: 15px;
+    width: 100%;
+    font-size: 15px;
+
+}
+
+#date {
+    float: left;
+    color: rgb(155, 159, 163);
+    width: 50%;
+
+}
+
+#reaction {
+    float: left;
+    width: 50%;
+
+}
+
+#reaction span {
+    float: right;
+    font-weight: bold;
+    color: black;
+
+
+}
+
+/* #author {
+    width: 100%;
+    display: block;
+}
+#authorpp {
+    float: left;
+    width: 8%;
+}
+
+#authorimage {
+    width: 60px;
+    border-radius: 30px;
+}
+
+#authorData {
+    float: left;    
+    width: 40%;
+}
+#authorData span {
+    font-weight: bold;
+} */
+
+#subscribe {
+    background-color: pink;
+    width: 60%;
+}
+
+#subscribe button {
+    float: right;
+}
+
+#subscribe i {
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+main {
+    padding: 20px;
+    float: left;
+    width: 70%;
+    position: relative;
 }
 
 aside {
-    padding: 10px;
-    width: 25%;
-    float: right;
-    display: inline;
-}
-
-.sideButton {
-    color: rgb(121, 120, 120);
-    font-size: 20px;
-    border: 1px solid rgb(144, 142, 142);
-    border-radius: 12px;
-}
-
-#videotitile {
-    font-weight: bold;
-}
-
-#videocaption {
+    padding: 20px;
     float: left;
-    border: 3px solid grey;
-    width: 50px;
+    width: 30%;
 }
 
-#react {
-    margin: 50px;
-    display: inline;
-    float: right;
+
+
+#video {
+    width: 100%;
+    position: relative;
+    height: 0;
+    padding-bottom: 50%;
 }
-.like{
-    padding: 25px;
-    font-size: 17px;
+
+#video iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
 }
-.thumbnailImage{
-    padding: 5px;
-    width: 250px;
-    float: left;
+
+#publisher {
+    margin-top: 15px;
+    padding: 2px;
+    width: 100%;
+
 }
-.othervideo{
-    padding: 15px;
-    padding-top: 20px;
-    display: inline;
+
+#commentes {
+    padding: 20px;
+    width: 100%;
+
 }
-.thumbnailtitle{
-    font-weight: bold;
-}
-.thumbnailbody{
-    margin-bottom: 0px;
-    paddingss-bottom: 0px;
-    color: grey;
-}
-.publisherprofile{
-    width: 60px;
-    border-radius: 30px;
-    
-}
-.publisher{
-    display: inline;
+
+@media screen and (max-width: 800px) {
+
+    main,
+    nav,
+    #search,
+    #account,
+    #reaction,
+    #date,
+    aside {
+        width: 100%;
+    }
+
+    #search,
+    #account {
+        display: none;
+    }
+
+    #reaction span {
+        float: left;
+    }
 }
